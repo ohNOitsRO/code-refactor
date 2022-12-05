@@ -96,7 +96,7 @@ aside {
 }
 
 /* Gives margins and text color to benefit descriptions under aside element */
-.benefit-desc {
+span {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -108,14 +108,14 @@ h3 {
 }
 
 /* Gives class benefit images specific sizing and positioning */
-.benefit-desc img {
+span img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /* Gives class perk elements specific sizing structure, and font styles/colors */
-.perk {
+section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -125,7 +125,7 @@ h3 {
 }
 
 /* Gives images inside perk class specific max height */
-.perk img {
+section img {
     max-height: 200px;
 }
 
