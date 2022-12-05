@@ -1,13 +1,16 @@
+/* Applies box border size to all elements on webpage */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Gives background of webpage a color*/
 body {
     background-color: #d9dcd6;
 }
 
+/* Gives header section padding, background color and font color/styles */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Gives main header title specific font size within an inline-block*/
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Specifically colors the 'seo' text portion in Horiseon a light gray */
 .seo {
     color: #d9dcd6;
 }
 
+/* Gives nav section box size structure and font color/styles and floats text to right */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,16 +38,19 @@ nav {
     font-size: 20px;
 }
 
+/* Gives list items box size structure and spacing margins */
 li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Gives links white color and no style change on highlight or click*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* gives text within paragraph elements a specific font size */
 p {
     font-size: 16px;
 }
@@ -55,23 +64,25 @@ p {
     background-position: center;
 }
 
+/* Float elements to the left of webpage */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Floats elements to the right of webpage */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
