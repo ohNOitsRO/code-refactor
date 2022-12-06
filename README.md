@@ -24,7 +24,7 @@ N/A
 
 Preview of website layout and design.
 
-![Sample Website Preview](assets/images/website-demo.png)
+![Sample Website Preview](Develop\assets\images\website-demo.png)
 
 ## Credits
 
